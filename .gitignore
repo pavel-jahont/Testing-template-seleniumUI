@@ -6,3 +6,7 @@
 
 # Maven
 target/
+
+#Settings
+src/main/resources/credentional.properties
+src/main/resources/locators.properties
