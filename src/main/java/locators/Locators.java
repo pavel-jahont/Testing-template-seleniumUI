@@ -11,13 +11,9 @@ public class Locators {
 
     static {
         locators = new Properties();
-
         InputStream inputSteamFile = Locators.class.getResourceAsStream("/locators.properties");
-
         try {
-
             locators.load(inputSteamFile);
-
         } catch (Exception e) {
             System.out.println("File not found:" + e);
         }

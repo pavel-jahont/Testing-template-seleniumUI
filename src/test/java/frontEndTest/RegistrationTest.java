@@ -11,9 +11,9 @@ import static config.CredentionalConfig.getCredentional;
 
 public class RegistrationTest extends Entity {
 
+    public static final String AUTHORIZATION_TITLE = getCredentional("Authorization.Title");
     private Home home = new Home();
     private WatchAppfollow watchAppfollow = new WatchAppfollow();
-    public static final String AUTHORIZATION_TITLE = getCredentional("Authorization.Title");
 
 
     @Test(testName = "Login with valid data", priority = 0, groups = {TestConstant.POSITIVE_TEST})

@@ -11,13 +11,9 @@ public class CredentionalConfig {
 
     static {
         credentional = new Properties();
-
         InputStream inputSteamFile = Locators.class.getResourceAsStream("/credentional.properties");
-
         try {
-
             credentional.load(inputSteamFile);
-
         } catch (Exception e) {
             System.out.println("File not found:" + e);
         }
